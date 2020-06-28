@@ -2,7 +2,7 @@
   "expo": {
     "sdkVersion": "35.0.0",
     "icon": "./assets/bklogo.png",
-    "slug": "kitchensinkvuenative",
+    "slug": "sfcs-vue-native",
     "loading": {
       "hideExponentText": true
     },

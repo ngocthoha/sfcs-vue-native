@@ -1,13 +1,13 @@
 <template>
   <nb-container>
     <nb-tabs :renderTabBar="getScollableTabComp">
-      <nb-tab heading="Tab1">
+      <nb-tab heading="Breakfast">
         <tab-one />
       </nb-tab>
-      <nb-tab heading="Tab2">
+      <nb-tab heading="Rice">
         <tab-two />
       </nb-tab>
-      <nb-tab heading="Tab3">
+      <nb-tab heading="Drink">
         <tab-three />
       </nb-tab>
     </nb-tabs>

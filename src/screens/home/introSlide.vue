@@ -1,6 +1,5 @@
 <template>
   <nb-container :style="{ backgroundColor: '#fff' }">
-    <nb-content padder>
       <nb-card>
         <nb-card-item cardBody>
           <image
@@ -10,7 +9,6 @@
           />
         </nb-card-item>
       </nb-card>
-    </nb-content>
   </nb-container>
 </template>
 
@@ -31,9 +29,6 @@ export default {
 </script>
 
 <style>
-.mb-15 {
-  margin-bottom: 15;
-}
 .card-item-image {
   flex: 1;
   height: 200;

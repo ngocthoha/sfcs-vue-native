@@ -36,8 +36,11 @@
     <!-- content -->
     <nb-content padder>
       <!-- content-home -->
-      <intro-slide v-if="seg === 1"/>
-      <tab-category v-if="seg === 1"/>
+      <nb-grid>
+        <nb-row><intro-slide class="intro_slide" v-if="seg === 1"/></nb-row>
+        <nb-row><tab-category v-if="seg === 1"/></nb-row>
+      </nb-grid>
+      
       <!-- content-cart -->
       <nb-text v-if="seg === 2">Cart</nb-text>
       <!-- content-notification -->
@@ -147,5 +150,8 @@ export default {
 }
 .mt-5 {
   margin-top: 5px;
+}
+.intro_slide {
+  height: 220;
 }
 </style>

@@ -1,10 +1,9 @@
 {
-  "devToolsPort": 19002,
   "expoServerPort": 19000,
+  "expoServerNgrokUrl": "https://ww-tvu.anonymous.sfcs-vue-native.exp.direct",
+  "packagerNgrokUrl": "https://packager.ww-tvu.anonymous.sfcs-vue-native.exp.direct",
+  "ngrokPid": 19965,
+  "devToolsPort": 19002,
   "packagerPort": 19001,
-  "packagerPid": 15927,
-  "expoServerNgrokUrl": "https://br-iev.anonymous.sfcs-vue-native.exp.direct",
-  "packagerNgrokUrl": "https://packager.br-iev.anonymous.sfcs-vue-native.exp.direct",
-  "ngrokPid": 16689,
-  "webpackServerPort": null
+  "packagerPid": 19689
 }

@@ -25,7 +25,7 @@
       "barStyle": "light-content",
       "backgroundColor": "#334393"
     },
-    "name": "Sfcs-vue-native",
+    "name": "sfcs-vue-native",
     "version": "0.1.0",
     "platforms": [
       "android",

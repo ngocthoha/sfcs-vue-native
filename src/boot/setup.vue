@@ -10,7 +10,6 @@ import Vue from "vue-native-core";
 import { VueNativeBase } from "native-base";
 import { AppLoading } from "expo";
 import * as Font from "expo-font";
-
 import App from "../App.vue";
 
 // registering all native-base components to the global scope of the Vue
@@ -33,6 +32,7 @@ export default {
         await Font.loadAsync({
           Roboto: require("../../node_modules/native-base/Fonts/Roboto.ttf"),
           Roboto_medium: require("../../node_modules/native-base/Fonts/Roboto_medium.ttf"),
+          FontAwesome: require("../../node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome.ttf"),
           Ionicons: require("../../node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Ionicons.ttf")
         });
         this.isAppReady = true;

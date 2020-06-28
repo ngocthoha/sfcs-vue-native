@@ -2,9 +2,9 @@
   "devToolsPort": 19002,
   "expoServerPort": 19000,
   "packagerPort": 19001,
-  "packagerPid": 24863,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null,
+  "packagerPid": 15927,
+  "expoServerNgrokUrl": "https://br-iev.anonymous.sfcs-vue-native.exp.direct",
+  "packagerNgrokUrl": "https://packager.br-iev.anonymous.sfcs-vue-native.exp.direct",
+  "ngrokPid": 16689,
   "webpackServerPort": null
 }

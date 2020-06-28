@@ -4,11 +4,9 @@
       <nb-card-item>
         <image square :source="logo" class="thumnail" />
         <nb-body :style="{marginLeft: 10}">
-          <nb-h2>Xôi mặn</nb-h2>
-          <nb-h3>15.000đ</nb-h3>
-          <nb-text>
-            Ngon bổ rẻ.
-          </nb-text>
+          <nb-h2 class="title-food">Xôi mặn</nb-h2>
+          <nb-h3 class="title-price">15.000đ</nb-h3>
+          <nb-h3 class="title-price">Ngon bổ rẻ</nb-h3>
         </nb-body>
       </nb-card-item>
     </nb-card>
@@ -17,14 +15,13 @@
       <nb-card-item>
         <image square :source="logo" class="thumnail" />
         <nb-body :style="{marginLeft: 10}">
-          <nb-h2>Xôi mặn</nb-h2>
-          <nb-h3>15.000đ</nb-h3>
-          <nb-text>
-            Ngon bổ rẻ.
-          </nb-text>
+          <nb-h2 class="title-food">Xôi mặn</nb-h2>
+          <nb-h3 class="title-price">15.000đ</nb-h3>
+          <nb-h3 class="title-price">Ngon bổ rẻ</nb-h3>
         </nb-body>
       </nb-card-item>
     </nb-card>
+
   </nb-content>
 </template>
 <script>
@@ -41,5 +38,13 @@ export default {
 .thumnail {
   width: 90;
   height: 90;
+}
+.title-food {
+  color: #000;
+  font-weight: 400;
+}
+.title-price {
+  color: #000;
+  font-size: 15;
 }
 </style>

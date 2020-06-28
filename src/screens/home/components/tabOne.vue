@@ -1,38 +1,45 @@
 <template>
-  <nb-content padder>
-    <nb-card>
+  <nb-content padder :style="{ marginTop: 0 }">
+    <nb-card :style="{ flex: 0 }">
       <nb-card-item>
-        <nb-body>
-          <nb-text>NativeBase is open source and free.</nb-text>
+        <image square :source="logo" class="thumnail" />
+        <nb-body :style="{marginLeft: 10}">
+          <nb-h2>Xôi mặn</nb-h2>
+          <nb-h3>15.000đ</nb-h3>
+          <nb-text>
+            Ngon bổ rẻ.
+          </nb-text>
         </nb-body>
       </nb-card-item>
+    </nb-card>
+
+    <nb-card :style="{ flex: 0 }">
       <nb-card-item>
-        <nb-body>
-          <nb-text>Platform specific codebase for components</nb-text>
-        </nb-body>
-      </nb-card-item>
-      <nb-card-item>
-        <nb-body>
-          <nb-text
-            >Any native third-party libraries can be included along with
-            NativeBase.</nb-text
-          >
-        </nb-body>
-      </nb-card-item>
-      <nb-card-item>
-        <nb-body>
-          <nb-text
-            >Single file to theme your app and NativeBase components.</nb-text
-          >
-        </nb-body>
-      </nb-card-item>
-      <nb-card-item>
-        <nb-body>
-          <nb-text
-            >Gives an ease to include different font types in your app.</nb-text
-          >
+        <image square :source="logo" class="thumnail" />
+        <nb-body :style="{marginLeft: 10}">
+          <nb-h2>Xôi mặn</nb-h2>
+          <nb-h3>15.000đ</nb-h3>
+          <nb-text>
+            Ngon bổ rẻ.
+          </nb-text>
         </nb-body>
       </nb-card-item>
     </nb-card>
   </nb-content>
 </template>
+<script>
+import logo from "../../../../assets/images/xoi.jpg";
+export default {
+  data() {
+    return {
+      logo
+    }
+  }
+}
+</script>
+<style>
+.thumnail {
+  width: 90;
+  height: 90;
+}
+</style>

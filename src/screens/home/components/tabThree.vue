@@ -2,12 +2,12 @@
   <nb-content padder :style="{ marginTop: 0 }">
     <nb-card :style="{ flex: 0 }">
       <nb-card-item>
-        <nb-body>
+        <image square :source="logo" class="thumnail" />
+        <nb-body :style="{marginLeft: 10}">
+          <nb-h2>Xôi mặn</nb-h2>
+          <nb-h3>15.000đ</nb-h3>
           <nb-text>
-            NativeBase builds a layer on top of React Native that provides you
-            with basic set of components for mobile application development.
-            This helps you to build world-class application experiences on
-            native platforms.
+            Ngon bổ rẻ.
           </nb-text>
         </nb-body>
       </nb-card-item>
@@ -15,13 +15,31 @@
 
     <nb-card :style="{ flex: 0 }">
       <nb-card-item>
-        <nb-body>
+        <image square :source="logo" class="thumnail" />
+        <nb-body :style="{marginLeft: 10}">
+          <nb-h2>Xôi mặn</nb-h2>
+          <nb-h3>15.000đ</nb-h3>
           <nb-text>
-            NativeBase gives you the potential of building applications that run
-            on iOS and Android using a single codebase.
+            Ngon bổ rẻ.
           </nb-text>
         </nb-body>
       </nb-card-item>
     </nb-card>
   </nb-content>
 </template>
+<script>
+import logo from "../../../../assets/images/xoi.jpg";
+export default {
+  data() {
+    return {
+      logo
+    }
+  }
+}
+</script>
+<style>
+.thumnail {
+  width: 90;
+  height: 90;
+}
+</style>

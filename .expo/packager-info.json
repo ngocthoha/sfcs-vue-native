@@ -1,9 +1,9 @@
 {
   "expoServerPort": 19000,
-  "expoServerNgrokUrl": "https://ww-tvu.anonymous.sfcs-vue-native.exp.direct",
-  "packagerNgrokUrl": "https://packager.ww-tvu.anonymous.sfcs-vue-native.exp.direct",
-  "ngrokPid": 19965,
+  "expoServerNgrokUrl": "https://ge-ups.anonymous.sfcs-vue-native.exp.direct",
+  "packagerNgrokUrl": "https://packager.ge-ups.anonymous.sfcs-vue-native.exp.direct",
+  "ngrokPid": 6273,
   "devToolsPort": 19002,
   "packagerPort": 19001,
-  "packagerPid": 5881
+  "packagerPid": 5014
 }

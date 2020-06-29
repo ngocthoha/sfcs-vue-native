@@ -4,7 +4,7 @@
       <nb-card-item>
         <image square :source="logo" class="thumnail" />
         <nb-body :style="{marginLeft: 10}">
-          <nb-h2 class="title-food">Xôi mặn</nb-h2>
+          <nb-h1 class="title-food">Xôi mặn</nb-h1>
           <nb-h3 class="title-price">15.000đ</nb-h3>
           <nb-h3 class="title-price">Ngon bổ rẻ</nb-h3>
         </nb-body>
@@ -15,7 +15,7 @@
       <nb-card-item>
         <image square :source="logo1" class="thumnail" />
         <nb-body :style="{marginLeft: 10}">
-          <nb-h2 class="title-food">Cơm gà</nb-h2>
+          <nb-h1 class="title-food">Cơm gà</nb-h1>
           <nb-h3 class="title-price">15.000đ</nb-h3>
           <nb-h3 class="title-price">Ngon bổ rẻ</nb-h3>
         </nb-body>
@@ -44,6 +44,7 @@ export default {
 .title-food {
   color: #000;
   font-weight: 400;
+  font-size: 20;
 }
 .title-price {
   color: #000;

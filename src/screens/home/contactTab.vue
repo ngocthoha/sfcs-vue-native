@@ -1,14 +1,12 @@
 <template>
-  <nb-container :style="{ backgroundColor: '#fff' }">
-    <nb-card>
-        <nb-card-item cardBody>
-          <image
-            :source="accountImage"
-            class="account-image"
-          />
-          <nb-text>username</nb-text>
-        </nb-card-item>
-      </nb-card>
+  <nb-container :style="{ backgroundColor: '#fff', height: '100%' }">
+    <nb-view class="view">
+      <image
+        :source="accountImage"
+        class="account-image"
+      /> 
+      <nb-text>username</nb-text>
+    </nb-view>
     <nb-content padder>
       <nb-list>
         <nb-list-item v-for="item in listItemArr" :key="item">
@@ -33,11 +31,12 @@ export default {
     return {
       accountImage,
       listItemArr: [
-        "Simon Mignolet",
-        "Nathaniel Clyne",
-        "Dejan Lovren",
-        "Mama Sakho",
-        "Alberto Moreno"
+        "Setting",
+        "Coupon",
+        "Payment",
+        "Transaction",
+        "Notification",
+        "Log out"
         ]
     };
   }
@@ -52,7 +51,9 @@ export default {
     width: 90;
     height: 90;
 }
-.body {
-    height: 50;
+.view {
+  background-color: #fff;
+  align-items: center;
+  height: 120;
 }
 </style>

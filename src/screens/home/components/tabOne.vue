@@ -15,7 +15,7 @@
       <nb-card-item>
         <image square :source="logo1" class="thumnail" />
         <nb-body :style="{marginLeft: 10}">
-          <nb-h2 class="title-food">Cơm</nb-h2>
+          <nb-h2 class="title-food">Cơm gà</nb-h2>
           <nb-h3 class="title-price">15.000đ</nb-h3>
           <nb-h3 class="title-price">Ngon bổ rẻ</nb-h3>
         </nb-body>

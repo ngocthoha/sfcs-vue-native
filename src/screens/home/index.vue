@@ -46,7 +46,7 @@
       <!-- content-notification -->
       <nb-text v-if="seg === 3">Notification</nb-text>
       <!-- content-contact -->
-      <nb-text v-if="seg === 4">Contact</nb-text>
+      <contact-tab v-if="seg === 4"/>
     </nb-content>
 
     <!-- footer -->
@@ -89,13 +89,14 @@
 <script>
 import IntroSlide from "./introSlide.vue"
 import TabCategory from "./tabCategory.vue"
+import ContactTab from "./contactTab.vue"
 export default {
   props: {
     navigation: {
     type: Object
     }
   },
-  components: { IntroSlide, TabCategory },
+  components: { IntroSlide, TabCategory, ContactTab },
   data() {
     return {
       tab1: true,
